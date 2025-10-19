@@ -1,7 +1,7 @@
 {
 	"name": "DesertEagle",
 	"namespace": "PapiLeem",
-	"version_number": "1.0.0",
+	"version_number": "1.0.1",
 	"description": "Adds a Desert Eagle",
 	"website_url": "",
 	"dependencies": [
