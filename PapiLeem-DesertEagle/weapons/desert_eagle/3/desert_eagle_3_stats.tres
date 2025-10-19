@@ -1,7 +1,8 @@
-[gd_resource type="Resource" load_steps=4 format=2]
+[gd_resource type="Resource" load_steps=5 format=2]
 
 [ext_resource path="res://weapons/weapon_stats/ranged_weapon_stats.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/PapiLeem-DesertEagle/weapons/desert_eagle/desert_eagle_shot.wav" type="AudioStream" id=2]
+[ext_resource path="res://mods-unpacked/PapiLeem-DesertEagle/weapons/desert_eagle/desert_eagle_reload.png" type="Texture" id=3]
 [ext_resource path="res://projectiles/bullet_laser/bullet_laser.tscn" type="PackedScene" id=6]
 
 [resource]
@@ -23,6 +24,7 @@ lifesteal = 0.0
 shooting_sounds = [ ExtResource( 2 ) ]
 sound_db_mod = 1
 is_healing = false
+custom_on_cooldown_sprite = ExtResource( 3 )
 recoil = 50
 recoil_duration = 0.2
 additional_cooldown_every_x_shots = 7
