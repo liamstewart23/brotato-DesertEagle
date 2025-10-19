@@ -30,10 +30,10 @@ position = Vector2( 24, 0 )
 texture = ExtResource( 4 )
 
 [node name="Collision" parent="Sprite/Hitbox" index="0"]
-position = Vector2( 0, 5 )
+position = Vector2( -1, 0 )
 
 [node name="Muzzle" parent="Sprite" index="1"]
-position = Vector2( 32, 0 )
+position = Vector2( 27, -14 )
 
 [node name="Attach" parent="." index="1"]
 position = Vector2( 0, 2 )
