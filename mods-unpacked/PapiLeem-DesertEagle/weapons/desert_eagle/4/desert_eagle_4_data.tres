@@ -1,10 +1,12 @@
-[gd_resource type="Resource" load_steps=6 format=2]
+[gd_resource type="Resource" load_steps=8 format=2]
 
 [ext_resource path="res://items/global/weapon_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/PapiLeem-DesertEagle/weapons/desert_eagle/4/desert_eagle_4_stats.tres" type="Resource" id=2]
 [ext_resource path="res://mods-unpacked/PapiLeem-DesertEagle/weapons/desert_eagle/desert_eagle.tscn" type="PackedScene" id=3]
 [ext_resource path="res://mods-unpacked/PapiLeem-DesertEagle/weapons/desert_eagle/desert_eagle_icon.png" type="Texture" id=4]
+[ext_resource path="res://items/sets/precise/precise_set_data.tres" type="Resource" id=5]
 [ext_resource path="res://items/sets/gun/gun_set_data.tres" type="Resource" id=6]
+[ext_resource path="res://items/sets/heavy/heavy_set_data.tres" type="Resource" id=7]
 
 [resource]
 script = ExtResource( 1 )
@@ -21,7 +23,7 @@ is_cursed = false
 curse_factor = 0.0
 weapon_id = "weapon_desert_eagle"
 type = 1
-sets = [ ExtResource( 6 ) ]
+sets = [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ) ]
 scene = ExtResource( 3 )
 stats = ExtResource( 2 )
 add_to_chars_as_starting = [  ]
