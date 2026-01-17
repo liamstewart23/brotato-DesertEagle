@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=7 format=2]
+[gd_resource type="Resource" load_steps=9 format=2]
 
 [ext_resource path="res://items/global/weapon_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/PapiLeem-DesertEagle/weapons/desert_eagle/1/desert_eagle_stats.tres" type="Resource" id=2]
@@ -6,6 +6,8 @@
 [ext_resource path="res://mods-unpacked/PapiLeem-DesertEagle/weapons/desert_eagle/desert_eagle.tscn" type="PackedScene" id=4]
 [ext_resource path="res://mods-unpacked/PapiLeem-DesertEagle/weapons/desert_eagle/desert_eagle_icon.png" type="Texture" id=5]
 [ext_resource path="res://items/sets/gun/gun_set_data.tres" type="Resource" id=6]
+[ext_resource path="res://items/sets/precise/precise_set_data.tres" type="Resource" id=7]
+[ext_resource path="res://items/sets/heavy/heavy_set_data.tres" type="Resource" id=8]
 
 [resource]
 script = ExtResource( 1 )
@@ -22,7 +24,7 @@ is_cursed = false
 curse_factor = 0.0
 weapon_id = "weapon_desert_eagle"
 type = 1
-sets = [ ExtResource( 6 ) ]
+sets = [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ) ]
 scene = ExtResource( 4 )
 stats = ExtResource( 2 )
 upgrades_into = ExtResource( 3 )
