@@ -3,15 +3,15 @@
 [ext_resource path="res://weapons/weapon_stats/ranged_weapon_stats.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/PapiLeem-DesertEagle/weapons/desert_eagle/desert_eagle_shot.wav" type="AudioStream" id=2]
 [ext_resource path="res://mods-unpacked/PapiLeem-DesertEagle/weapons/desert_eagle/desert_eagle_reload.png" type="Texture" id=3]
-[ext_resource path="res://projectiles/bullet_laser/bullet_laser.tscn" type="PackedScene" id=6]
+[ext_resource path="res://projectiles/bullet/bullet_projectile.tscn" type="PackedScene" id=4]
 
 [resource]
 script = ExtResource( 1 )
 cooldown = 50
 damage = 38
-accuracy = 0.8
-crit_chance = 0.05
-crit_damage = 2.75
+accuracy = 0.85
+crit_chance = 0.08
+crit_damage = 5.0
 min_range = 0
 max_range = 450
 knockback = 25
@@ -19,7 +19,7 @@ knockback_piercing = 1.0
 can_have_positive_knockback = true
 can_have_negative_knockback = false
 effect_scale = 1.0
-scaling_stats = [ [ "stat_ranged_damage", 1.75 ] ]
+scaling_stats = [ [ "stat_ranged_damage", 3.25 ] ]
 lifesteal = 0.0
 shooting_sounds = [ ExtResource( 2 ) ]
 sound_db_mod = 1
@@ -39,4 +39,4 @@ bounce_dmg_reduction = 0.5
 can_bounce = false
 projectile_speed = 5000
 increase_projectile_speed_with_range = false
-projectile_scene = ExtResource( 6 )
+projectile_scene = ExtResource( 4 )
